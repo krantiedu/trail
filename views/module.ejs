@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules</title>
+</head>
+<body>
+    <h1>Upload Modules</h1>
+    <form action="/module" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required><br><br>
+        <input type="text" placeholder="topic" name="topic"><br><br>
+        <input type="text" name="title" placeholder="title"><br><br>
+        <input type="text" name="description" placeholder="description"><br><br>
+        <input type="text" name="link" placeholder="link"><br><br>
+        <input type="text" name="productid" placeholder="productid"><br><br>
+        <input type="submit" placeholder="submit">
+    </form>
+</body>
+</html>
